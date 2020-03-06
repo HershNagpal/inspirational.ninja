@@ -1,51 +1,68 @@
+@font-face {
+  font-family: 'qsBold';
+  src: url("/assets/quicksandBold.otf") format("opentype");
+}
+
 button:focus {
   outline: none;
+}
+
+html {
+  background-color: black;
 }
 
 .App {
   max-width: 800px;
   margin: auto;
+  background-color: black;
 }
 
-.Container{
+.Container {
   padding: 0 20px;
 }
 
-.Ninja{
+.Ninja {
   margin-top: 20px;
   min-height: 200px;
-  background-color: black;
+  background-color: white;
 }
 
-.HeaderText{
+.HeaderText {
   text-align: center;
 }
 
-.GenerateButton{
+.GenerateButton {
   display:block;
   margin: auto;
   font-size: 18px;
-  border: 2px solid black;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
 }
 
 .GenerateButton:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
-.Line{
+.Line {
   margin: 20px auto;
   max-width: 400px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
-.FeaturedQuote{
+.FeaturedQuote {
   text-align: center;
+  color: white;
   font-size: 40px;
 }
 
-.QuoteImage{
+.QuoteImage {
   margin-top: 20px;
   min-height: 200px;
   background-color: magenta;
+}
+
+.generatedQuote {
+  min-height: 100px;
 }
