@@ -2,14 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-type Colors = "Blue"|"Red"|"Green"
-
-
-type Colors =
-  | typeof COLOR_RED
-  | typeof COLOR_BLUE;
-const testThing:StateType = ["Car", null, null];
-
 const ResultTypeDone = "done" as const;
 const ResultTypeContinue = "continue" as const;
 
