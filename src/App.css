@@ -3,39 +3,58 @@
   src: url("/assets/quicksandBold.otf") format("opentype");
 }
 
+/*#b20000*/
+
 button:focus {
   outline: none;
 }
 
 html {
-  background-color: black;
+  background-color: #101010;
 }
 
 .App {
-  max-width: 800px;
   margin: auto;
-  background-color: black;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inspirationalNinjaTextImg {
+  display: block;
+  max-width: 300px;
+  margin: 30px 50px;
 }
 
 .Container {
   padding: 0 20px;
 }
 
-.Ninja {
-  margin-top: 20px;
+.TopNinja {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
   min-height: 200px;
-  background-color: white;
+  max-height: 300px;
 }
 
 .HeaderText {
+  color: white;
+  margin-top: 50px;
+  font-size: 30px;
   text-align: center;
 }
 
 .GenerateButton {
   display:block;
   margin: auto;
-  font-size: 18px;
-  background-color: black;
+  margin-top: 50px;
+  padding: 10px 20px;
+  font-size: 40px;
+  background-color: #101010;
   color: white;
   border: 2px solid white;
 }
@@ -46,23 +65,33 @@ html {
 }
 
 .Line {
-  margin: 20px auto;
+  margin: 60px auto;
   max-width: 400px;
-  border-bottom: 2px solid white;
+  border-bottom: 4px solid #b20000;
 }
 
-.FeaturedQuote {
+.GeneratedQuote {
+  min-height: 100px;
+  margin-top: 60px;
+}
+
+.FeaturedQuoteHeader {
   text-align: center;
   color: white;
+  margin-bottom: 50px;
   font-size: 40px;
 }
 
-.QuoteImage {
-  margin-top: 20px;
-  min-height: 200px;
+.FeaturedQuoteImage {
+  display: block;
+  max-width: 700px;
+  margin: auto;
   background-color: magenta;
 }
 
-.generatedQuote {
-  min-height: 100px;
+.UpsidedownNinja {
+  display: block;
+  max-width: 300px;
+  margin-left: 50vw;
+  margin-top: 50px;
 }
