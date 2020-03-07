@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'qsBold';
-  src: url("/assets/quicksandBold.otf") format("opentype");
+  src: url("./assets/quicksandBold.otf") format("opentype");
 }
 
 /*#b20000*/
@@ -42,6 +42,7 @@ html {
 }
 
 .HeaderText {
+  font-family: 'qsBold';
   color: white;
   margin-top: 50px;
   font-size: 30px;
@@ -54,6 +55,7 @@ html {
   margin-top: 50px;
   padding: 10px 20px;
   font-size: 40px;
+  font-family: 'qsBold';
   background-color: #101010;
   color: white;
   border: 2px solid white;
@@ -78,6 +80,7 @@ html {
 .FeaturedQuoteHeader {
   text-align: center;
   color: white;
+  font-family: 'qsBold';
   margin-bottom: 50px;
   font-size: 40px;
 }
